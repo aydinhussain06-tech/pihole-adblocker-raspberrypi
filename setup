@@ -13,11 +13,14 @@
 - Installed packages
 - Connected micro SD card to raspberry pi
 
-# Installing pi hole
+# Installing pi hole and final setups
 - Logged into raspberry pi through SSH
 - Installed pi hole on it
 - Logged into modem and reserved the IP of the raspberry pi
 
 # Troubleshooting
-- When using clourfare DNSSEC the domains on list was -2 (something is wrong)
-- Fixed this by using a different DNS server
+- When manually changing my modem's DNS server to the raspberry pi's static ip address it disconnects from my router
+- Bell (my IPS) restricts custom DNS at the router level
+
+# Fix
+- Manually configure the DNS server on each device by setting it to the IP of the raspberry PI
