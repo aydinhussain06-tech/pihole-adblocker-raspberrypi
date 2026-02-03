@@ -1,0 +1,23 @@
+# Setup Steps
+
+# Tools used: 
+- Micro SD Card
+- Micro Adapter
+- Rapsberry Pi Zero 2 W
+- SD Card Reader
+- Micro usb connecter
+
+# Initial Raspberry Pi Configuration
+- Created username and password
+- Enabled SSH
+- Installed packages
+- Connected micro SD card to raspberry pi
+
+# Installing pi hole
+- Logged into raspberry pi through SSH
+- Installed pi hole on it
+- Logged into modem and reserved the IP of the raspberry pi
+
+# Troubleshooting
+- When using clourfare DNSSEC the domains on list was -2 (something is wrong)
+- Fixed this by using a different DNS server
