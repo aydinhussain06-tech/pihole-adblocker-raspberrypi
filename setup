@@ -16,10 +16,10 @@
 # Installing pi hole and final setups
 - Logged into raspberry pi through SSH
 - Installed pi hole on it
-- Logged into modem and reserved the IP of the raspberry pi
+- Logged into router and reserved the IP of the raspberry pi
 
 # Troubleshooting
-- When manually changing my modem's DNS server to the raspberry pi's static ip address it disconnects from my router
+- When manually changing my router's DNS server to the raspberry pi's static ip address it disconnects from having internet connection
 - Bell (my IPS) restricts custom DNS at the router level
 
 # Fix
